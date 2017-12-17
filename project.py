@@ -5,6 +5,7 @@ import time
 import math
 from sudoku_puzzle import *
 import pytesseract
+import sys
 from PIL import Image
 
 
@@ -96,7 +97,7 @@ def main():
     col = (dataset_size - size[0]) // 2
     row = (dataset_size - size[1]) // 2
 
-    frame = cv2.imread("three.jpg")
+    frame = cv2.imread(sys.argv[1])
 
     img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     h, w = img.shape
