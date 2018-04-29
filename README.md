@@ -15,5 +15,6 @@ Python3 project.py one.jpg
 <br />
 Here is the sample output for one.jpg.<br />
 input:<br />
-<img src="https://github.com/KyleZheng1997/sudoku-solver/blob/master/one.jpg" width="400"> <br />
+<img src="https://github.com/KyleZheng1997/sudoku-solver/blob/master/one.jpg" width="650"> <br />
 output: <br />
+<img src="https://github.com/KyleZheng1997/sudoku-solver/blob/master/one_output.jpg" width="650">
